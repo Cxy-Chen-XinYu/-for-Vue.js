@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="zh-cn">
+
+<head>
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="HoverAlls/jquery.HoverAlls-2.6.demo.min.js"></script>
+  <meta charset="utf-8">
+  <title>软开1732班-个人毕业设计展示</title>
+  <link rel="icon" type="image/x-ico" href="favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <!-- styles -->
+  <link rel="stylesheet" href="assets/css/fancybox/jquery.fancybox.css">
+  <link href="assets/css/bootstrap.css" rel="stylesheet" />
+  <link href="assets/css/bootstrap-theme.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/slippry.css">
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/color/default.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="HoverAlls/css/jquery-HoverAlls-2.5.css"/>
+  <link rel="stylesheet" type="text/css" href="css/button.css">
+  <link rel="stylesheet" type="text/css" href="css/loader.css">
+  <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+  <script type="text/javascript">if(top!==self)top.location.href=self.location.href;</script>
+  
+  <script src="assets/js/modernizr.custom.js"></script>
+  <script src="js/vue.min.js"></script>
+  <script src="js/axios.min.js"></script>
+  <script src="https://upcdn.b0.upaiyun.com/libs/jquery/jquery-2.0.2.min.js"></script>
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" >
+  <style>
+    body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    .loading-div {
+      width: 1920px;
+      height: 1080px;
+      background-color: #fff;
+      display: table-cell;
+      vertical-align: middle;
+      color: #555;
+      overflow: hidden;
+      text-align: center;
+    }
+    .loading-div::before {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+  </style>
+ 
+
+
+
+
+</head>
+
+<body>
+  <div class="loading-div">
+    <i class="fa fa-spinner fa-pulse fa-3x fa-fw "></i>
+    <span class="sr-only">首次打开会加载部分资源，请稍微等候会........</span>
+</div>
+<div class="main">
+  <header>
+
+    <div id="navigation" class="navbar navbar-inverse navbar-fixed-top default" role="navigation">
+      <div class="container">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index-1.html">Software Development 1732</a>
+        </div>
+
+        <div class="navigation">
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <nav>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="current"><a href="#intro">主页</a></li>
+                <li><a href="#about">关于我们</a></li>
+                <li><a href="#Project">个人项目</a></li>
+                <li><a href="#works">三年时光</a></li>
+                <li><a href="#contact">留言区域</a></li>
+              </ul>
+            </nav>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+  <!-- section intro -->
+  <section id="intro">
+    <ul id="slippry-slider">
+      <li>
+        <a href="#sl=ide1"><img src="https://cdn.u1.huluxia.com/g3/M03/62/6A/wKgBOV6nzJKADYrzAB1WEfcbyQo258.jpg" alt="欢迎来到软开1732班" border="0" /></a>
+      </li>
+      <li>
+        <a href="#slide2"><img src="https://cdn.u1.huluxia.com/g3/M03/62/6B/wKgBOV6nzNaATeCYABETM--J9cc255.jpg" alt="这里有我们的回忆和技能展示" border="0"/></a>
+      </li>
+      <li>
+        <a href="#slide3"><img src="https://cdn.u1.huluxia.com/g3/M02/62/6B/wKgBOV6nzQKAXujXACtFs7xp2Xs931.jpg" alt="希望大家常常来这里看看，回忆我们的大学生活" border="0"/></a>
+      </li>
+    </ul>
+  </section>
+  <!-- end intro -->
+  <!-- Section about -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="heading">
+            <h3><span>关于我们</span></h3>
+          </div>
+          <div class="sub-heading">
+            <p>
+             班级
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="team-box">
+            <img src="https://cdn.u1.huluxia.com/g3/M02/62/6B/wKgBOV6nzSWADKk-AAJ265O6Irg498.jpg" alt="锋哥" class="img-responsive" />
+            <div class="roles">
+              <h5><strong>辅导员</strong></h5>
+              <p>
+                张常锋老师
+              </p>
+              <ul class="social-profile">
+                <a href="http://www.worlduc.com/SpaceShow/Index.aspx?uid=3174377" class="btn btn-success btn-circle btn-sm btn-icon-overlay" role="button">
+                  <i class="fa fa-user"></i> 访问个人空间
+                </a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="team-box">
+            <img src="https://cdn.u1.huluxia.com/g3/M02/62/6C/wKgBOV6nzTyAdLucAAHgQFgmqlc442.jpg" alt="贺老师" class="img-responsive" />
+            <div class="roles">
+              <h5><strong>专业指导</strong></h5>
+              <p>
+                贺棕梅老师
+              </p>
+              <ul class="social-profile">
+                <a href="http://www.worlduc.com/SpaceShow/Index.aspx?uid=134936" class="btn btn-success btn-circle btn-sm btn-icon-overlay" role="button">
+                  <i class="fa fa-user"></i> 访问个人空间
+                </a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="team-box">
+            <img src="https://cdn.u1.huluxia.com/g3/M02/62/6C/wKgBOV6nzVOANC8wAAJ0e86y2iI547.jpg" alt="薛老师" class="img-responsive" />
+            <div class="roles">
+              <h5><strong>基础入门</strong></h5>
+              <p>
+                薛海英老师
+              </p>
+              <ul class="social-profile">
+                <a href="http://www.worlduc.com/SpaceShow/Index.aspx?uid=2601794" class="btn btn-success btn-circle btn-sm btn-icon-overlay" role="button">
+                  <i class="fa fa-user"></i> 访问个人空间
+                </a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="team-box">
+            <img src="https://cdn.u1.huluxia.com/g3/M01/62/6C/wKgBOV6nzWuAWy0SAAYt4lKafOA290.jpg" alt="谢楠" class="img-responsive" />
+            <div class="roles">
+              <h5><strong>服务同学</strong></h5>
+              <p>
+                谢楠-软开1732班-班长
+              </p>
+              <ul class="social-profile">
+                <a href="http://www.worlduc.com/SpaceShow/Index.aspx?uid=3077849" class="btn btn-success btn-circle btn-sm btn-icon-overlay" role="button">
+                  <i class="fa fa-user"></i> 访问个人空间
+                </a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end section about -->
+  <section id="Project" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="heading">
+            <h3><span>个人项目展示</span></h3>
+          </div>
+          <div class="sub-heading">
+            <p>
+             包涵毕业设计项目、微信小程序项目、安卓APP项目的展示
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="team-box">
+            <img src="https://cdn.u1.huluxia.com/g3/M03/62/6D/wKgBOV6nza-AUvsuAAGsMU5aYtQ835.png" alt="" class="img-responsive" />
+            <div class="roles">
+              <h5><strong>毕业设计项目</strong></h5>
+              <p>
+                基于Spring Boot + Vue.js框架开发<br>后台管理系统项目              </p>
+              <ul class="social-profile">
+                <div class="btn-group">
+                  <a href="login.html" class="btn btn-success btn-circle" role="button">演示</a>
+                  <a href="ProgramAbout/Java/Java.html" class="btn btn-success btn-circle" role="button">说明</a>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="team-box">
+            <img src="https://cdn.u1.huluxia.com/g3/M03/62/6D/wKgBOV6nzcWAHDF-AASlUUTl1_o381.png" alt="" class="img-responsive" />
+            <div class="roles">
+              <h5><strong>微信小程序项目</strong></h5>
+              <p>
+                基于微信开放平台-微信小程序开发“日常工具箱小程序”
+              </p>
+              <ul class="social-profile">
+                <div class="btn-group">
+                  <a href="ProgramAbout/WeChat/WeChat.html" class="btn btn-success btn-circle" role="button">演示</a>
+                  <a href="ProgramAbout/WeChat/WeChat.html" class="btn btn-success btn-circle" role="button">说明</a>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="team-box">
+            <img src="https://cdn.u1.huluxia.com/g3/M01/62/6C/wKgBOV6nzZCAHvj5AAgqRFnT9Wo647.png" alt="" class="img-responsive" />
+            <div class="roles">
+              <h5><strong>学生管理系统APP</strong></h5>
+              <p>
+                基于Android SDK 29 开发<br>学生管理系统
+              </p>
+              <ul class="social-profile">
+                <div class="btn-group">
+                  <a href="../web/ProgramAbout/Android/apk/StudentSYS.apk" class="btn btn-success btn-circle" role="button" download="../web/ProgramAbout/Android/apk/StudentSYS.apk">演示</a>
+                  <a href="Android.html" class="btn btn-success btn-circle" role="button">说明</a>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="team-box">
+            <img src="https://cdn.u1.huluxia.com/g3/M03/62/6D/wKgBOV6nzdmALUQiAAAv0ypO0TI115.png" alt="" class="img-responsive" />
+            <div class="roles">
+              <h5><strong>新项目构建</strong></h5>
+              <p>
+                暂无项目信息<br>
+                新项目暂未开工
+              </p>
+              <ul class="social-profile">
+                <div class="btn-group">
+                  <a href="404/404.html" class="btn btn-success btn-circle" role="button">演示</a>
+                  <a href="404/404.html" class="btn btn-success btn-circle" role="button">说明</a>
+                </div>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section works -->
+  <section id="works" class="section gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="heading">
+            <h3><span>项目开发日志</span></h3>
+          </div>
+          <div class="sub-heading">
+            <p>
+              模块功能调整-三年时光（下线） - 项目开发日志（预留接口）
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section works -->
+  <!-- section contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="heading">
+            <h3><span>留言区域</span></h3>
+          </div>
+          <div class="sub-heading">
+            <p>
+              在这里留下你的联系方式和个性留言吧！
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h4><i class="icon-envelope"></i><strong>在这里填写</strong></h4>
+          <p>
+            我们会妥善保管相关信息
+          </p>
+          <!-- start contact form -->
+          <div id = "Mes_GET">
+          <div class="cform" id="contact-form">
+
+
+            <div id="sendmessage">您的留言已发送，谢谢您！</div>
+            <div id="errormessage"></div>
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="form-group">
+                <input type="text" name="m_Name" class="form-control" id="m_Name" placeholder="你的姓名" data-rule="minlen:2" 
+                  data-msg="请至少输入两个字符" v-model="m_Name" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="m_Email" id="m_Email" placeholder="你的邮箱" data-rule="email"
+                  data-msg="你还没有填写正确邮箱格式"  v-model="m_Email" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="m_Theme" id="m_Theme" placeholder="想说的主题" data-rule="minlen:4"
+                  data-msg="怀旧/表白/口号，都是主题哦 "  v-model = "m_Theme"/>
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="m_Message" id="m_Message" placeholder="想说的话" data-rule="minlen:4"
+                  data-msg="想说什么，就写什么 "  v-model = "m_Message"/>
+                <div class="validation"></div>
+              </div>
+
+              <div class="text-center"><button type="submit" class="btn btn-lg btn-theme btn-circle" v-on:click="reg">填好了，发送！</button></div>
+            </form>
+          </div>
+          <!-- END contact form -->
+        </div>
+      </div>
+        <div class="col-md-6">
+          <h4>留言展示</h4>
+          <p>留言板表单展示</p>
+             <div>
+               <table class="table table-striped" id="Mes">
+                 <thead class="thead-light">
+                 <tr>
+                   <th class="text-center">留言者</th>
+                   <th class="text-center">留言内容</th>
+                 </tr>
+                </thead>
+               <tbody>
+                 <tr v-for="(a,index) in Message">
+                   <td class="text-center" scope="row">{{a.m_Name}}</td>
+                   <td class="text-center" scope="row">{{a.m_Message}}</td>
+                 </tr>
+               </tbody>
+              </table>
+             </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end section contact -->
+  <footer>
+    <div class="verybottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="aligncenter">
+              <ul class="social-network social-circle">
+                <li><a href="404/404.html" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                <li><a href="404/404.html" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="404/404.html" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="404/404.html" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="404/404.html" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row" id="Sys" v-for="site in up">
+          <div class="col-md-12">
+            <div class="aligncenter">
+              <p>Copyright {{site.sys_bq}}</p>
+              <p>联系地址：{{site.sys_dz}}</p>
+              <p>备案号：<a href="https://www.beian.miit.gov.cn">{{site.sys_ba}}</a></p>
+              <p><a href="https://www.aliyun.com/?spm=5176.12901015.ahjq0uaqt.1.127e525cYeOzPa">{{site.sys_zc}}</a></p>
+              <div class="credits"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <a href="#" class="scrollup"><i class="fa fa-angle-up fa-2x"></i></a>
+</div>
+<script>
+  var Fdd = new Vue({
+    //绑定标签
+    el:"#Sys",
+    //绑定数据
+    data(){
+      return{
+        up:null
+      }
+    },
+    //请求服务器数据的方法
+    mounted () {//用来向服务器请求数据的方法
+          axios.get('http://39.106.191.207:8080/getSys')
+          .then(
+              function(response){//请求正常完成的处理
+                //将响应的数据给到libs
+                Fdd.up = response.data;
+            }).catch(
+              function (error) { // 请求失败处理
+                alert("服务器尚未启动，请联系后端管理员");
+           });
+        },
+  });  
+  //绑定HTML标签
+  </script> 
+  <script>
+   //注释部分是设置2秒的定时延迟，timeout结束后加载网页
+      setTimeout(() => {
+        $(".loading-div").hide();
+      $('body').css('overflow-y','scroll');
+      }, 20000);
+//这是根据js判断，页面加载完毕就显示
+document.onreadystatechange = function () {
+    if (document.readyState == "complete") {    
+        $(".loading-div").hide();
+        $('body').css('overflow','scroll');
+    }
+  }
+  </script>
+
+  <!-- javascript -->
+  <script src="assets/js/jquery-1.9.1.min.js"></script>
+  <script src="assets/js/jquery.easing.js"></script>
+  <script src="assets/js/classie.js"></script>
+  <script src="assets/js/bootstrap.js"></script>
+  <script src="assets/js/slippry.min.js"></script>
+  <script src="assets/js/nagging-menu.js"></script>
+  <script src="assets/js/jquery.nav.js"></script>
+  <script src="assets/js/jquery.scrollTo.js"></script>
+  <script src="assets/js/jquery.fancybox.pack.js"></script>
+  <script src="assets/js/jquery.fancybox-media.js"></script>
+  <script src="assets/js/masonry.pkgd.min.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/jquery.nicescroll.min.js"></script>
+  <script src="assets/js/AnimOnScroll.js"></script>
+  <script>
+    new AnimOnScroll(document.getElementById('grid'), {
+      minDuration: 0.4,
+      maxDuration: 0.7,
+      viewportFactor: 0.2
+    });
+  </script>
+  <script>
+    $(document).ready(function () {
+      $('#slippry-slider').slippry(
+        defaults = {
+          transition: 'vertical',
+          useCSS: true,
+          speed: 5000,
+          pause: 3000,
+          initSingle: false,
+          auto: true,
+          preload: 'visible',
+          pager: false,
+        }
+      )
+    });
+  </script>
+  <script>
+    var Mes_GET;
+    var Mes_GET = new Vue({
+      el:"#Mes_GET",
+
+      data:{
+        m_Name:"",
+        m_Email:"",
+        m_Theme:"",
+        m_Message:""
+      },
+      methods:{
+					reg:function(){
+            if(!Mes_GET.m_Name||!Mes_GET.m_Message){
+              alert(">>>>管理员提醒：请看清楚要求再填写哦！！！！<<<<")
+            }else{
+						// var data={username:login.username,password:login.password};
+						var  data = new URLSearchParams();
+						data.append("m_Name",Mes_GET.m_Name);
+            data.append("m_Email",Mes_GET.m_Email);
+            data.append("m_Theme",Mes_GET.m_Theme);
+            data.append("m_Message",Mes_GET.m_Message);
+						//发送请求到服务器
+						axios.post("http://39.106.191.207:8080/addmessage",data).then(
+							function(response){
+								var a = response.data;
+								if (a>0){
+									alert("留言发送成功，稍后会立即刷新显示");
+                  window.location.reload();
+								}else{
+									alert("留言发生失败，错误代码为："+response.data)
+								}								
+							}   
+						).catch(
+							function(error){
+								alert("发送请求失败，请检查与服务器的连接，或联系网站管理员！");
+
+							}
+						);
+					  }
+          },
+          
+				}
+    })
+  </script>
+  <script>
+    var Mes;
+    var Mes = new Vue({
+      //绑定指定区域Div id   id = Mes
+      el:"#Mes",
+      //绑定数据
+      data:{
+        Message:[]
+      },
+      //向服务端发送请求，获取所有留言功能
+      mounted() {
+        axios.get('http://39.106.191.207:8080/getMessageAll').then(
+          function(response){
+            Mes.Message = response.data
+
+          }).catch(
+            function(error){
+              alert("请求服务出错，请检查代码或开启服务端")
+            });
+      },
+
+
+
+
+    })
+  </script>
+  
+  <script src="assets/js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+</body>
+</html>
